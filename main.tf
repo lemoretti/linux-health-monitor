@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "google" {
-  project               = "calm-inkwell-475719-p1"
+  project               = "project-86c1cd5d-c433-4963-901"
   region                = "us-central1"
   zone                  = "us-central1-a"
   user_project_override = true
