@@ -32,8 +32,8 @@ resource "google_compute_instance" "monitor_vm" {
   }
 
   metadata = {
-    # This automatically injects your Windows computer's SSH key so you can log in later
-    ssh-keys = "ubuntu:${file("~/.ssh/id_rsa.pub")}"
+    # Point exactly to the new public key file in your project folder
+    ssh-keys = "ubuntu:${file("C:/GitHub/linux-health-monitor/gcp_rsa.pub")}"
   }
 }
 
