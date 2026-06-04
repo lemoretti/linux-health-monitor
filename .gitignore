@@ -18,5 +18,7 @@ Thumbs.db
 *.swp
 *.swo
 
-# Ignore environment files
-.env
+# Ignore temp terraform track files
+.terraform 
+*.tfstate*
+.terraform.lock.hcl
